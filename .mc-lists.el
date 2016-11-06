@@ -3,8 +3,11 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+	cua-cut-region
+	cua-paste
 	eval-last-sexp
 	find-file
+	kill-region
 	))
 
 (setq mc/cmds-to-run-once

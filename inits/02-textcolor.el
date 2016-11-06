@@ -22,5 +22,3 @@
 
 ;; C-k で行末の改行も消去
 (setq kill-whole-line t)
-
-

@@ -8,7 +8,7 @@
 ;; the Free Software Foundation, either version 3 of the License, or
 ;; (at your option) any later version.
 
-;; This file is distributed in the hope that it will be useful,
+;; Thixs file is distributed in the hope that it will be useful,
 ;; but WITHOUT ANY WARRANTY; without even the implied warranty of
 ;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 ;; GNU General Public License for more details.
@@ -46,6 +46,10 @@
 (defvar fui-dark-concrete "#7f8c8d")
 (defvar fui-bg fui-clouds)
 (defvar fui-fg fui-asphalt)
+(defvar fui-bg "#2b303b")
+
+(defvar fui-bg "#2b303b")
+
 
 (custom-theme-set-faces
  'FlatUI
@@ -205,7 +209,7 @@
  `(font-lock-keyword-face ((t (:foreground ,"#c0c5ce"))))
  `(font-lock-string-face ((t (:foreground ,"#a3be8c"))))
  `(font-lock-type-face ((t (:foreground ,"#ebcb8b"))))
- `(font-lock-variable-name-face ((t (:foreground ,"#bf616a"))))・背景色
+ `(font-lock-variable-name-face ((t (:foreground ,"#bf616a"))))
 
  )
 
@@ -227,7 +231,7 @@
 
 
 
-・背景色
+
 
 (defvar fui-bg "#2b303b")
 

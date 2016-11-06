@@ -1,4 +1,4 @@
-http://www.hiroom2.com/2015/09/02/emacsのmagitパッケージの使い方/#sec-1
+;;http://www.hiroom2.com/2015/09/02/emacsのmagitパッケージの使い方/#sec-1
 ;; Magit
 (setq-default magit-auto-revert-mode nil)
 (setq vc-handled-backends '())

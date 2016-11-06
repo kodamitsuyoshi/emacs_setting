@@ -64,8 +64,7 @@
       scroll-step 1)
 (setq comint-scroll-show-maximum-output t) ;; shell-mode
 
-;; フレームの透明度
-(set-frame-parameter (selected-frame) 'alpha '(1.0))
+
 
 ;; ------------------------------------------------------------------------
 ;; @ redo+.el

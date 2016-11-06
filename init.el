@@ -14,16 +14,7 @@
           '(lambda ()
              (local-set-key [f7] 'my-load-current-buffer-file)))
 
-;;----- MacでGUIの時、optionをmeta
-(if window-system (progn
-		    (when (equal system-type 'darwin)
-		      (setq mac-option-modifier 'meta))
-		    ))
 
-(if window-system (progn
-		    (when (equal system-type 'darwin) ;; Macでは16pt
-		      (add-to-list 'default-frame-alist '(font . "ricty-18")))
-		    ))
 
 
 
@@ -34,8 +25,9 @@
       (normal-top-level-add-subdirs-to-load-path)))
 
 (require 'init-loader)
-(setq init-loader-show-log-after-init nil)
+(setq init-loader-show-log-after-init t)
 (init-loader-load "~/.emacs.d/inits")
+;(setq init-loader-show-log-after-init t)
 
 ;;----- Macの日本語関係
 (when (fboundp 'mac-input-source)
