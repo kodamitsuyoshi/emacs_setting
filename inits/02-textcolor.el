@@ -24,7 +24,3 @@
 (setq kill-whole-line t)
 
 
-;; 行番号を表示する
-(require 'linum)
-(global-linum-mode t)      ; デフォルトで linum-mode を有効にする
-(setq linum-format "%5d ") ; 5 桁分の領域を確保して行番号のあとにスペースを入れる
