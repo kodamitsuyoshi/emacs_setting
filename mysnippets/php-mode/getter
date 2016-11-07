@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: getter
+# key: g
+# --
+public function get${1:Field}() {
+       return $this->${2:field};
+}

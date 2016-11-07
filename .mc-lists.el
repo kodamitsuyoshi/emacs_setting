@@ -5,9 +5,13 @@
       '(
 	cua-cut-region
 	cua-paste
+	dired-do-kill-lines
 	eval-last-sexp
 	find-file
+	insert-file
 	kill-region
+	set-fill-column
+	wdired-finish-edit
 	))
 
 (setq mc/cmds-to-run-once

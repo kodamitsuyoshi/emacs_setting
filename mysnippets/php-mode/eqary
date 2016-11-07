@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: eqary
+# key: eqary
+# --
+['$1'] = $1;

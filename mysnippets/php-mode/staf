@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: sta func
+# key: staf
+# --
+static $1 function $2($0){
+
+}

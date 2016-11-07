@@ -1,7 +1,8 @@
 ;;----- MacでGUIの時、optionをmeta
 (if window-system (progn
 		    (when (equal system-type 'darwin)
-		      (setq mac-option-modifier 'meta))
+		      ;(setq mac-option-modifier 'meta))
+		      (setq mac-command-modifier 'meta))
 		    ))
 
 (if window-system (progn
