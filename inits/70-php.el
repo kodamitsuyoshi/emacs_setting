@@ -1,5 +1,6 @@
 (require 'php-mode)
-					;dd
+(require 'php-autocomplete)
+;dd
 ;https://github.com/xcwen/ac-php#install
 (require 'cl)
 (add-hook 'php-mode-hook

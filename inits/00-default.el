@@ -8,7 +8,7 @@
 ;(menu-bar-mode 0)
 
 ;; スクロールバー非表示
-(set-scroll-bar-mode 0)
+;(set-scroll-bar-mode 0)
 
 ;タイトルバーにファイル名を表示
 (setq frame-title-format (format "%%f - Emacs@%s" (system-name)))

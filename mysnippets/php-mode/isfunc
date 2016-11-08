@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: isfunc
+# key: isfunc
+# --
+
+public function is${1:Field} ()
+{
+	return $this->${2:filed} == self::$0;
+}
