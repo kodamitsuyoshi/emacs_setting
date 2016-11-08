@@ -1,5 +1,5 @@
 (require 'php-mode)
-(require 'php-autocomplete)
+;(require 'php-autocomplete)
 ;dd
 ;https://github.com/xcwen/ac-php#install
 (require 'cl)
