@@ -77,3 +77,30 @@
 
 (when (require 'minimap nil t )
  (define-key global-map (kbd "C-x _") 'minimap-mode))
+
+
+
+
+;; 改行コードを表示する
+(setq eol-mnemonic-dos "(CRLF)")
+(setq eol-mnemonic-mac "(CR)")
+(setq eol-mnemonic-unix "(LF)")
+
+;; シフト＋矢印で範囲選択
+(setq pc-select-selection-keys-only t)
+(pc-selection-mode 1)
+
+;;; dired設定
+(require 'dired-x)
+
+
+
+;; beep音を消す
+(defun my-bell-function ()
+  (unless (memq this-command
+        '(isearch-abort abort-recursive-edit exit-minibuffer
+              keyboard-quit mwheel-scroll down up next-line previous-line
+              backward-char forward-char))
+    (ding)))
+(setq ring-bell-function 'my-bell-function)
+
