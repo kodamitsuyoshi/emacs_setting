@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: dlog
+# key: dlog
+# --
+
+\Log::${1:debug}(__CLASS__.':'.__FUNCTION__.'['.__LINE__.']'."$0");
+

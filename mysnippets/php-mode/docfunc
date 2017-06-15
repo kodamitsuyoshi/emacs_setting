@@ -1,0 +1,21 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: docfunc
+# key: docfunc
+# --
+
+
+  /**
+   * ${1:explain}
+   *
+   * @access ${2:public}
+   * ${3:@param int }
+   * ${4:@param int }
+   * ${5:@param int }	
+   *
+   * @return $6
+   * @since `(format-time-string "%Y-%m-%d")`
+   * @author ${7:koda}
+   *
+   **/
+
+   

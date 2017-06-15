@@ -35,7 +35,7 @@
 ;;(global-linum-mode t)      ; デフォルトで linum-mode を有効にする
 (global-linum-mode t)
 (set-face-attribute 'linum nil
-                    :foreground "#333"
+                    :foreground "#999"
                     :height 0.9)
 (setq linum-format "%d ") ; 5 桁分の領域を確保して行番号のあとにスペースを入れる
 

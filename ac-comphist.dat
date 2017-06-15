@@ -1,14 +1,74 @@
-((("yasnippet" .
+((("$time,$value" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("subDay(" .
+   [0 0 0 1 0 0 0])
+  ("Model_Logic_Statistics" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("$str) { return strtotime($str)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("getTimeFromStr(" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("getMessage(" .
+   [0 0 0 0 0 0 1 1 0 0 0])
+  ("\\Exception" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("LAUNCH_CONDTION_ADVENT_PASSIVE" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  (")" .
+   [3])
+  ("getSkillLv(" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("$lv)" .
+   [0 0 0 1])
+  ("getPower(" .
+   [0 0 0 0 1 0 0 0 0])
+  ("data" .
+   [1 0 0 0])
+  ("Console" .
+   [1 0 0 0 0 0 0])
+  ("lv1_power" .
    [0 0 0 1 0 0 0 0 0])
-  ("require" .
-   [1 0 0 0 0 0 1])
-  ("add-hook" .
-   [0 0 0 1 0 0 0 0])
-  ("python-mode-hook" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("lambda" .
-   [1 0 0 0 0 0])
+  ("launch_conditions" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("windows" .
+   [1 0 0 0 0 0 0])
   ("window" .
    [1 0 0 0 0 0])
-  ("windows" .
-   [1 0 0 0 0 0 0])))
+  ("lambda" .
+   [1 0 0 0 0 0])
+  ("python-mode-hook" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("add-hook" .
+   [0 0 0 1 0 0 0 0])
+  ("require" .
+   [1 0 0 0 0 0 1])
+  ("yasnippet" .
+   [0 0 0 1 0 0 0 0 0])
+  ("Model_Db_Tool" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("Model_Db_Sql_Usr_Item" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0])
+  ("Model_Db_Sql_Mst_Event_Chest" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("Model_Db_Sql_Mst_Event_Character_Special_Effect" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("INFO_END" .
+   [1 0 0 0 0 0 0 0])
+  ("say" .
+   [1 0 0])
+  ("res" .
+   [2 0 0])
+  ("reply" .
+   [2 0 0 0 0])
+  ("->" .
+   [1 0])
+  ("return" .
+   [1 0 0 0 0 0])
+  ("do_shell" .
+   [1 0 0 0 0 0 0 0])
+  ("Model_Db_Sql_Cmn_Teacher" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("select(" .
+   [1 0 0 0 0 0 0])
+  ("$userId,$studentUserId" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])))

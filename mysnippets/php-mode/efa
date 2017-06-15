@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: efa
+# key: efa
+# --
+
+$this->$1        = isset($x['$1'])?$x['$1']:$this->$1;

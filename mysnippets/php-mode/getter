@@ -1,6 +1,6 @@
 # -*- mode: snippet; require-final-newline: nil -*-
 # name: getter
-# key: g
+# key: getter
 # --
 public function get${1:Field}() {
        return $this->${2:field};

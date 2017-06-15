@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: gsetter
+# key: gsetter
+# --
+protected $$2;
+public function set$1($x)
+{
+	$this->$2 = $x;
+}
+
+public function get$1()
+{
+	return $this->$2;
+}

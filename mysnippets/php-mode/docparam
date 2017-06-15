@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: docparam
+# key: docparam
+# --
+
+  * @param ${1:int} $2
+  $0
