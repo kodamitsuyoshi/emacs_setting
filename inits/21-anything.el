@@ -7,3 +7,4 @@
 ;;クリップボードの履歴をanythingで検索
 (global-set-key "\M-y" 'anything-show-kill-ring)
 (global-set-key (kbd "C-.") 'anything-do-grep)
+

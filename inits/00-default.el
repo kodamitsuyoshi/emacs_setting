@@ -5,10 +5,10 @@
 ;; ツールバーを消す
 (tool-bar-mode 0)
 ;; メニューバーを非表示
-;(menu-bar-mode 0)
+(menu-bar-mode 0)
 
 ;; スクロールバー非表示
-;(set-scroll-bar-mode 0)
+;;(set-scroll-bar-mode 0)
 
 ;タイトルバーにファイル名を表示
 (setq frame-title-format (format "%%f - Emacs@%s" (system-name)))
@@ -40,23 +40,19 @@
 (setq linum-format "%d ") ; 5 桁分の領域を確保して行番号のあとにスペースを入れる
 
 
-;; 括弧の範囲内を強調表示
-(show-paren-mode t)
-(setq show-paren-delay 0)
-(setq show-paren-style 'expression)
-
-;; 括弧の範囲色
-(set-face-background 'show-paren-match-face "#1ABC9C")
-
-;; 選択領域の色
-;;(set-face-background 'region "#999")
+;; 対応する括弧を強調して表示する
+(setq show-paren-delay 0) ;表示までの秒数、０秒
+(show-paren-mode t) ;有効化
+(set-face-attribute 'show-paren-match nil
+:background 'unspecified)
+(set-face-underline-p 'show-paren-match "red")
 
 
 (fset 'yes-or-no-p 'y-or-n-p)
 
 
 ;; 行間
-(setq-default line-spacing 0)
+(setq-default line-spacing t)
 
 ;; 1行ずつスクロール
 (setq scroll-conservatively 35

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: drog
+# key: drog
+# --
+
+\Log::${1:debug}(__CLASS__.':'.__FUNCTION__.'['.__LINE__.']'.print_r(["$0"],true));
+

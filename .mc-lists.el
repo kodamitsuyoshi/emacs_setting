@@ -3,6 +3,11 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+	c-electric-delete-forward
+	c-electric-paren
+	c-electric-semi&comma
+	c-electric-slash
+	comment-region
 	cua-cut-region
 	cua-paste
 	dired-do-kill-lines

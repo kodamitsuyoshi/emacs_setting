@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: dloop
+# key: dloop
+# --
+
+
+
+foreach (${1:$mylist} as ${2:$key} => ${3:$row}) {
+    $0
+}

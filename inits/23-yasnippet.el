@@ -4,8 +4,9 @@
 ;; 自分用・追加用テンプレート -> mysnippetに作成したテンプレートが格納される
 (require 'yasnippet)
 (setq yas-snippet-dirs
-      '("~/.emacs.d/mysnippets"
-        "~/.emacs.d/yasnippets"
+      '(
+	"~/.emacs.d/yasnippets"
+	"~/.emacs.d/mysnippets"
         ))
 
 

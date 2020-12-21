@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name: getter
-# key: getter
-# --
-public function get$1(){return $this->$2;}
